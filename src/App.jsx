@@ -1,6 +1,7 @@
 import { Post } from './components/Post';
 import { Header } from './components/Header';
 import { Sidebar } from './components/Sidebar';
+import { Comment } from './components/Comment';
 
 import style from './App.module.css';
 
@@ -13,10 +14,8 @@ function App() {
       <div className={style.wrapper}>
         <Sidebar/>  
         <main>
-        <Post 
-          author="Tadeu Henrique"
-          content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quisquam consectetur numquam. Tempore quo cupiditate voluptas repellat hic fugiat veniam, numquam commodi consequatur optio ullam libero praesentium vero qui totam!"
-        />
+        <Post />
+        <Post />
         </main>
       </div>
     </div>
